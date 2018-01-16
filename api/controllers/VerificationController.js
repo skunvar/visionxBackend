@@ -170,6 +170,7 @@ module.exports = {
     var firstName = req.body.firstName;
     var middleName = req.body.middleName;
     var lastName = req.body.lastName;
+    var DOB = req.body.DOB;
     var addLine1 = req.body.addLine1;
     var addLine2 = req.body.addLine2;
     var city = req.body.city;
@@ -230,6 +231,8 @@ module.exports = {
         addLine2: addLine2,
         city: city,
         state: state,
+        DOB : DOB,
+        verificationDate : new Date(),
         country: country,
         pincode: pincode,
         mobileNumber: mobileNumber,

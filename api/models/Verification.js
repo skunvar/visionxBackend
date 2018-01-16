@@ -25,6 +25,12 @@ module.exports = {
     addLine2: {
       type: 'string'
     },
+    DOB : {
+      type: 'string'
+    },
+    verificationDate : {
+      type : "datetime"
+    },
     city: {
       type: 'string'
     },
