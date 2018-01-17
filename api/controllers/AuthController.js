@@ -20,8 +20,8 @@ module.exports = {
     console.log("Enter into authentcate!!!" + req.body.email);
     var useremail = req.param('email');
     var password = req.param('password');
-    //var ip = req.param('ip');
-    var ip = "192.168.0.1";
+    var ip = req.param('ip');
+    // var ip = "192.168.0.1";
     if (!useremail || !password || !ip) {
       console.log("email and password required");
       return res.json({

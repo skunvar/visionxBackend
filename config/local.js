@@ -82,6 +82,6 @@ module.exports = {
 
   // environment: process.env.NODE_ENV || 'development'
   paths: {
-    public: '/home/kunvar/test/' /// or wherever
+    public: '/visionkyc/' /// or wherever
   }
 };
