@@ -1,7 +1,7 @@
 module.exports.common = {
 
 
-  imgegeContainer: '/visionkyc/',
+  imgegeContainer: '/var/www/html/visionkyc/',
 
   supportEmailId: 'visionx.io@gmail.com', //Support Email Id to send mail signup and login and forgot password
   supportEmailIdpass: 'visionx@io', //Support Email Id passoword
